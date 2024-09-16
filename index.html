@@ -3,153 +3,195 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Lato:wght@400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>brightblog</title>
+    <title>BrightGallery</title>
 </head>
 <body>
     <header>
-        <!-- the content of the header goes here -->
-         <h1 id="logo">BrightBlog</h1>
-         <nav>
-            <ul id="nav-ul"> 
-                <li><a href="" class="navbutton">Home</a></li>
-                <li><a href="" class="navbutton">About us</a></li>
-                <li><a href="" class="navbutton">Contact</a></li>
-            </ul>
-         </nav>
+        <!-- Header content -->
+        <h1 id="logo">BrightGallery</h1>
     </header>
+    
     <main>
-        <div id="main-content">
-            <aside>
-                <section>
-                    <h4>
-                        Filter by Month 
-                    </h4>
-                    <nav>
-                        <ul>
-                            <li><a href=""></a>Filter by January</li>
-                            <li><a href=""></a>Filter by Feburary</li>
-                            <li><a href=""></a>Filter by March</li>
-                        </ul>
-                    </nav> 
-                </section>
-                <section>
-                    <h4>
-                        Filter by Category
-                    </h4>
-                    <nav>
-                        <ul>
-                            <li><a href="">Puppies</a></li>
-                            <li><a href="">Dogs</a></li>
-                            <li><a href="">Cats</a></li>
-                            <li><a href="">hedgehogs</a></li>
-                        </ul>
-                    </nav>
-                </section>
-            </aside>
-
-            <div>
-                <article>
-                    <header>
-                        <!-- Article's header goes here -->
-                         <h2>Eleven Amusing Facts About Dogs</h2>
-                         <h3>Read time: 10 minutes</h3>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo numquam ab neque minima ut ipsam libero ipsum, veniam dolore rem qui non sint voluptate, impedit atque fuga. Eveniet dignissimos porro, blanditiis soluta, officia nesciunt odio molestias qui suscipit minus quia facere labore. Unde, laboriosam! Ducimus veniam iusto officiis magni sequi animi dolore, culpa labore quos, rem voluptates! Eaque, fugiat magnam consequatur dolor dignissimos esse aperiam illo quis corrupti, quam ipsum praesentium veritatis explicabo perspiciatis earum officiis a reprehenderit modi aspernatur illum! Voluptate odio rerum debitis, cum minus culpa hic. Quo autem cumque aliquam esse hic nihil iste atque blanditiis molestias.</p>
-                        <p>some text about dogs!</p>
-                        <p>here is some further text</p>
-                        <p>some text about cats</p>
-                        <blockquote>
-                            "I love puppies!"<cite> - Ibrahim, 2024</cite>
-                        </blockquote>
-                    </main>
-                    <footer>
-                        <h2>Author: Ibrahim Ismael</h2>
-                        <img src="https://placebear.com/100/100" alt="A profile picture of a bear">
-                        <h3>last posted: 01-01-2001</h3>
-                        <a href="https://www.google.co.uk" target="_blank">Author's profile</a>
-                    </footer>
-                </article>
-            </div>
-        </div>
-
-
-
+        <aside>
+            <!-- Section for artist or genre links -->
+            <section>
+                <h4>About the Artists</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">1. Vincent van Gogh</a> - <br> "Starry Night"</li>
+                        <li><a href="#">2. Salvador Dalí</a> - <br> "The Persistence of Memory"</li>
+                        <li><a href="#">3. Andy Warhol</a> - <br> "Marilyn Diptych"</li>
+                        <li><a href="#">4. Claude Monet</a> - <br> "Water Lilies"</li>
+                        <li><a href="#">5. Beeple</a> - <br> "Everydays: The First 5000 Days"</li>
+                        <li><a href="#">6. Sandro Botticelli</a> - <br> "The Birth of Venus"</li>
+                        <li><a href="#">7. Leonardo da Vinci</a> - <br> "The Last Supper"</li>
+                        <li><a href="#">8. Pablo Picasso</a> - <br> "Guernica"</li>
+                        <li><a href="#">9. Gustav Klimt</a> - <br> "The Kiss"</li>
+                        <li><a href="#">10. Johannes Vermeer</a> - <br> "Girl with a Pearl Earring"</li>
+                        <li><a href="#">11. Edvard Munch</a> - <br> "The Scream"</li>
+                        <li><a href="#">12. Grant Wood</a> - <br> "American Gothic"</li>
+                        <li><a href="#">13. Rembrandt van Rijn</a> - <br> "The Night Watch"</li>
+                        <li><a href="#">14. Raphael</a> - <br> "The School of Athens"</li>
+                        <li><a href="#">15. Jan van Eyck</a> - <br> "The Arnolfini Portrait"</li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h4>Explore More Art Genres</h4>
+                <nav>
+                    <ul id="genre">
+                        <li>Abstract</li>
+                        <li>Surrealism</li>
+                        <li>Impressionism</li>
+                        <li>Expressionism</li>
+                        <li>Realism</li>
+                        <li>Minimalism</li>
+                        <li>Pop Art</li>
+                        <li>Renaissance</li>
+                        <li>Modernism</li>
+                        <li>Conceptual Art</li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
         
-        <!-- main content goes here -->
-        <hr> 
-        <h2>Sign up for our newsletter</h2>
-        <form action="">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name" required>
-            <br>
-            
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name" required>
-            <br>
-            
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            <br>
-            
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-            <br>
-            
-            <label for="favourite_animal">Favourite Animal</label>
-            <input type="radio" name="favourite_animal" id="dog" value="dog">
-            <label for="dog">Dog</label> 
-            <input type="radio" name="favourite_animal" id="cat" value="cat">
-            <label for="cat">Cat</label>
-            <input type="radio" name="favourite_animal" id="hedgehogs" value="hedgehogs">
-            <label for="hedgehogs">Hedgehogs</label>
-            <br>
-            
-            <label for="country">Country</label>
-            <select name="country" id="country">
-                <option value="england">England</option>
-                <option value="scotland">Scotland</option>
-                <option value="wales">Wales</option>
-                <option value="northan_ireland">Northan Ireland</option>
-            </select>
-            <br>
-
-            <label for="bio">Biography:</label>
-            <br>
-
-            <textarea name="bio" id="bio" cols="30" rows="5 "></textarea>
-            <br>
-
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <label for="subscribe">Subscribe to our newsletter</label>
-            <br>
-            
-            <input type="submit" value="Send!">
-        </form>
-        <hr>
+        <div>
+            <article>
+                <header>
+                    <h2>This Month's Picks</h2>
+                    <h3>Here are some of the top pieces voted by our community.</h3>
+                </header>
+                <main id="main-content">
+                    <div>
+                        <!-- Artwork 1 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/700px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="Starry Night by Vincent van Gogh">
+                        <p><strong>Starry Night</strong> by Vincent van Gogh. A post-impressionist masterpiece that captures the beauty of the night sky.</p>
+                        <blockquote>"I dream my painting and I paint my dream." – <cite>Vincent van Gogh</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 2 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg" alt="The Persistence of Memory by Salvador Dalí">
+                        <p><strong>The Persistence of Memory</strong> by Salvador Dalí. A surrealist painting with iconic melting clocks.</p>
+                        <blockquote>"The difference between a madman and me is that I am not mad." – <cite>Salvador Dalí</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 3 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Marilyndiptych.jpg" alt="Marilyn Diptych by Andy Warhol">
+                        <p><strong>Marilyn Diptych</strong> by Andy Warhol. A pop art classic that portrays the culture of fame.</p>
+                        <blockquote>"In the future, everyone will be world-famous for 15 minutes." – <cite>Andy Warhol</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 4 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/WLA_metmuseum_Water_Lilies_by_Claude_Monet.jpg" alt="Water Lilies by Claude Monet">
+                        <p><strong>Water Lilies</strong> by Claude Monet. A beautiful depiction of nature through the lens of impressionism.</p>
+                        <blockquote>"It’s on the strength of observation and reflection that one finds a way. So we must dig and delve unceasingly." – <cite>Claude Monet</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 5 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Everydays%2C_the_First_5000_Days.jpg" alt="Everydays: The First 5000 Days by Beeple">
+                        <p><strong>Everydays: The First 5000 Days</strong> by Beeple. A digital art phenomenon in the NFT space.</p>
+                        <blockquote>"Art is really just an extension of your mind, how you perceive the world and the work you put out." – <cite>Beeple</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 6 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/400px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" alt="The Birth of Venus by Sandro Botticelli">
+                        <p><strong>The Birth of Venus</strong> by Sandro Botticelli. A Renaissance masterpiece depicting the goddess Venus emerging from the sea.</p>
+                        <blockquote>"The Birth of Venus represents the ideal of beauty and grace." – <cite>Sandro Botticelli</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 7 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/440px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg" alt="The Last Supper by Leonardo da Vinci">
+                        <p><strong>The Last Supper</strong> by Leonardo da Vinci. An iconic depiction of Jesus's final meal with his disciples.</p>
+                        <blockquote>"The Last Supper embodies the spiritual essence of Christ." – <cite>Leonardo da Vinci</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 8 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/400px-PicassoGuernica.jpg" alt="Guernica by Pablo Picasso">
+                        <p><strong>Guernica</strong> by Pablo Picasso. A powerful anti-war painting representing the horrors of conflict.</p>
+                        <blockquote>"Guernica is a monument to human suffering and resistance." – <cite>Pablo Picasso</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 9 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/300px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg" alt="The Kiss by Gustav Klimt">
+                        <p><strong>The Kiss</strong> by Gustav Klimt. An emblematic work of Art Nouveau with its ornate patterns and tender embrace.</p>
+                        <blockquote>"The Kiss is an eternal symbol of love and intimacy." – <cite>Gustav Klimt</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 10 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/270px-1665_Girl_with_a_Pearl_Earring.jpg" alt="Girl with a Pearl Earring by Johannes Vermeer">
+                        <p><strong>Girl with a Pearl Earring</strong> by Johannes Vermeer. A renowned portrait known for its captivating gaze and mysterious allure.</p>
+                        <blockquote>"The Girl with a Pearl Earring remains a symbol of grace and beauty." – <cite>Johannes Vermeer</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 11 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/220px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg" alt="The Scream by Edvard Munch">
+                        <p><strong>The Scream</strong> by Edvard Munch. A haunting representation of existential angst and human anxiety.</p>
+                        <blockquote>"The Scream expresses the universal experience of fear and anguish." – <cite>Edvard Munch</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 12 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/300px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg" alt="American Gothic by Grant Wood">
+                        <p><strong>American Gothic</strong> by Grant Wood. A quintessential representation of rural American life and culture.</p>
+                        <blockquote>"American Gothic captures the essence of American spirit and resilience." – <cite>Grant Wood</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 13 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/380px-The_Night_Watch_-_HD.jpg" alt="The Night Watch by Rembrandt van Rijn">
+                        <p><strong>The Night Watch</strong> by Rembrandt van Rijn. A dramatic and dynamic portrayal of a militia company in action.</p>
+                        <blockquote>"The Night Watch is a masterpiece of dramatic composition and light." – <cite>Rembrandt van Rijn</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 14 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/270px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg" alt="The School of Athens by Raphael">
+                        <p><strong>The School of Athens</strong> by Raphael. A grand fresco depicting the greatest philosophers and scholars of ancient Greece.</p>
+                        <blockquote>"The School of Athens celebrates the spirit of intellectual inquiry." – <cite>Raphael</cite></blockquote>
+                    </div>
+                    <div>
+                        <!-- Artwork 15 -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/270px-The_Arnolfini_portrait_%281434%29.jpg" alt="The Arnolfini Portrait by Jan van Eyck">
+                        <p><strong>The Arnolfini Portrait</strong> by Jan van Eyck. A detailed and symbolic portrait showcasing early Netherlandish art.</p>
+                        <blockquote>"The Arnolfini Portrait is a masterpiece of meticulous detail and symbolism." – <cite>Jan van Eyck</cite></blockquote>
+                    </div>
+                </main>
+            </article>
+        </div>
     </main>
+
+    <!-- Form for submitting art choices -->
+    <h2>Submit Your Choice for Next Month's Front Page Spot!</h2>
+    <form action="">
+        <label for="full_name">Full Name</label>
+        <input type="text" id="full_name" name="full_name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="artpiece_name">Artpiece Name</label>
+        <input type="text" id="artpiece_name" name="artpiece_name" required>
+        <br>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to be notified for the next poll</label>
+        <br>
+        <input type="submit" value="Send!">
+    </form>
+    <hr>
+    
     <footer>
-        <h2>BrightBlogSite</h2>
+        <h2>BrightGallery</h2>
         <section>
             <ul id="footer-ul">
-                <div>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Careers</a></li>
-                </div>
-                <div>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Cookie Policy</a></li>
-                </div>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Cookie Policy</a></li>
             </ul>
         </section>
-        <!-- footer goes here -->
     </footer>
-    
 </body>
 </html>
